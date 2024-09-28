@@ -1,0 +1,62 @@
+.error{
+    color: red;
+}
+.success {
+    color: green;
+}
+.form-box{
+    background-color: rgb(85, 30, 0);
+    color: white;
+
+    font-family: Arial, sans-serif;
+    font-size: 18px; /* Increases the size of the text in the body */
+    margin: 20px;
+    width: 50%;
+    height: vh;
+    border: 1px solid black;
+    margin: 10px;
+    padding: 29px;
+}
+
+
+
+label {
+    font-size: 20px; /* Increases the label text size */
+    margin-bottom: 10px;
+    display: block;
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 50%;
+    padding: 10px; /* Adds padding to make the input box larger */
+    margin-top: 5px;
+    margin-bottom: 20px;
+    font-size: 18px; /* Increases the input text size */
+    border: 2px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    font-size: 20px; /* Increases the button text size */
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049; /* Darkens the button when hovered */
+}
+
+.error {
+    color: red;
+    font-size: 16px; /* Adjusts the error message size */
+}
+
+.success {
+    color: green;
+    font-size: 16px; /* Adjusts the success message size */
+}
